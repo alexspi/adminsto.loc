@@ -16,3 +16,6 @@ Laravel 8 version - Cuba Theme Support
 
 ## Доступ
 
+admin@test.com
+
+1234

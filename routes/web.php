@@ -20,8 +20,10 @@ use App\Http\Controllers\LeadController;
 //    return redirect()->route('index');
 //})->name('/');
 
-Route::get('/', [HomeController::class, 'index'])->name('main');
-
+//Route::get('/', [HomeController::class, 'index'])->name('main');
+Route::get('/', function () {
+    return view('welcome');
+})->name('main');
 
 
 Route::get('login', [LoginController::class, 'showLoginForm'])->name('login');
